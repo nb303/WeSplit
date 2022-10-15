@@ -62,7 +62,7 @@ struct ContentView: View {
             Section(header: Text("Total amount per person")) {
                 Text("$ \(totalPerPerson, specifier: "%.2f")")
                 }
-                Image("rosie")
+                Image("the")
                     .resizable()
                     .scaledToFit()
             }
